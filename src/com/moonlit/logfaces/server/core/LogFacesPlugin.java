@@ -7,5 +7,5 @@ public interface LogFacesPlugin {
 	public String getName();
 	public List<String> getArgs();
 	public Object handleEvents(List<LogEvent> events, Map<String,String> args);
-	public Object validate();
+	public Object validate(Map<String,String> args);
 }
